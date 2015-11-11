@@ -1,0 +1,58 @@
+
+
+<!-- HEADER -->
+<header class="site-header" role="banner">
+<!--   NAVBAR -->
+  <div class="navbar-wrapper">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container clearfix">
+        
+        <div class="navbar-header">
+          
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          
+            <a class="brand" href="/"><%= image_tag "savoy_inverted_transparent.png", class: "savoy-logo" %></a>
+          
+          <div class="social-nav">
+            <a href="https://twitter.com/savoy" target="_blank" class="badge social twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://facebook.com/savoy" target="_blank" class="badge social facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://plus.google.com/savoyband" target="_blank" class="badge social gplus"><i class="fa fa-google-plus"></i></a>
+          </div>
+          
+        </div> <!-- end navbar-header -->
+        
+        <div class="navbar-collapse collapse">                      
+            <ul class="nav navbar-nav navbar-right">
+              <li><%= link_to "Live", {:action => "home", :controller => "pages", :anchor => "savoy-live" } %></li>
+              <li><%= link_to "Music", {:action => "home", :controller => "pages", :anchor => "savoy-soundcloud" } %></li>
+              <li><%= link_to "Downloads", {:action => "home", :controller => "pages", :anchor => "savoy-downloads" } %></li>
+              <li><%= link_to "Lasers", {:action => "home", :controller => "pages", :anchor => "savoy-video" } %></li>
+              <li><%= link_to "Apparel", {:action => "home", :controller => "pages", :anchor => "savoy-video" } %></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>
+                    <ul class="dropdown-menu inverse-dropdown">
+                        <li><a href="http://twitter.com/savoy" target=_blank>Twitter</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.facebook.com/savoy" target=_blank>Facebook</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://soundcloud.com/savoyband" target=_blank>Soundcloud</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.instagram.com/savoyband" target=_blank>Instagram</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://www.youtube.com/savoyband" target=_blank>Youtube</a></li>
+                    
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <!--/.nav-collapse --> 

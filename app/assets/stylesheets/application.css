@@ -1,0 +1,290 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/* COLORS:
+
+DARK GREY: #2e2e2e */
+
+html,
+body { height: 100% }
+
+body {
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 16px;
+  background-color: #2e2e2e;
+}
+
+center {
+  text-align: center;
+}
+
+
+/* === GLOBAL === */
+
+h1,h2,h3,h4,h5,h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1,h2 {
+  margin: 0 0 40px;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+p.lead {
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+/* NAV */
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar.brand {
+    width: 20%;
+    max-height: 40px;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.savoy-logo {
+  max-width: 150px;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  margin-left: 100px;
+}
+
+.social-nav {
+  margin-left: 400px;
+  max-height: 20px;
+  margin-top: -43px;
+}
+
+.badge.social {
+  background: #ccc;
+  font-size: 24px;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  line-height: 35px;
+  margin: 0 5px 20px 0;
+  padding: 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: white;
+}
+
+.badge.social.twitter:hover {
+  background: #55acee;
+}
+.badge.social.facebook:hover {
+  background: #3b5998;
+}
+.badge.social.gplus:hover {
+  background: #db4b39;
+}
+
+.inverse-dropdown{
+  background-color: #222;
+  border-color: black;
+}
+
+.inverse-dropdown li a{
+  color: grey;
+}
+
+.inverse-dropdown li a:hover{
+      font-weight: bold;
+}
+
+
+/* CAROUSEL */
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 800px; /*slider height*/
+    margin-top: -300px;
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+/* 
+moving on */
+
+/* ==== LEAVING YOU ==== */
+
+#leaving-you {
+  background: black;
+  padding: 16px 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.leaving-you-text {
+  margin-top: 50px;
+}
+
+#leaving-you h4 {
+  font-weight: bold;
+}
+
+#leaving-you p {
+  font-size: 16px;
+}
+
+/* ==== SAVOY MAILING LIST ==== */
+
+#mailing-list {
+  background: #3e4249;
+  padding: 10px 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-size: 1.2em;
+}
+
+#mailing-list p {
+  font-size: 16px;
+  margin-top: 14px;
+}
+
+.btn-mailing {
+  background: black;
+  margin-top: 5px;
+}
+
+/* ==== SAVOY LIVE ==== */
+
+#savoy-live {
+  min-height: 500px;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  text-decoration: none;
+}
+
+/* ==== SAVOY SOUNDCLOUD ==== */
+
+#savoy-soundcloud {
+  min-height: 500px;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  background: url("IMGP6175.jpg") 50% 0 repeat fixed;
+}
+
+
+/* ==== SAVOY SOCIAL ==== */
+
+#savoy-social {
+  min-height: 300px;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  text-decoration: none;
+}
+
+/* ==== SAVOY VIDEO ==== */
+
+#savoy-video {
+  min-height: 500px;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  background: url("IMGP6175.jpg") 50% 0 repeat fixed;
+}
+
+/* ==== SAVOY DOWNLOADS ====  */
+
+#savoy-downloads {
+  min-height: 300px;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  text-decoration: none;
+}
+
+/* ==== SAVOY APPAREL ==== */
+
+#savoy-apparel {
+  min-height: 300px;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  text-decoration: none;
+  background: url("IMGP6175.jpg") 50% 0 repeat fixed;
+}
+
