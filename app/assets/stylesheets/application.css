@@ -19,7 +19,11 @@
 DARK GREY: #2e2e2e */
 
 html,
-body { height: 100% }
+body { 
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
 
 body {
   display: table;
@@ -27,10 +31,28 @@ body {
   margin-top: 50px;
   font-size: 16px;
   background-color: #2e2e2e;
+  color: #fff;
+  
+}
+
+.wrapper {
+  display: table-row;
+  height: 100%;
 }
 
 center {
   text-align: center;
+}
+
+@font-face {
+  font-family: 'Frontman';
+  src:font-url('Frontman.eot');
+  src:font-url('Frontman.eot?#iefix') format('embedded-opentype'),
+    font-url('Frontman.svg#icomoon') format('svg'),
+    font-url('Frontman.woff') format('woff'),
+    font-url('Frontman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
@@ -169,6 +191,50 @@ img {
 /* 
 moving on */
 
+
+/* HERO SECTION
+========================================= */
+#hero {
+  background: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/505d7df9-f069-4f92-b903-683fe3ec0431_zpssbfmimss.jpg")  no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 650px;
+  font-family: Frontman;
+}
+
+.pre-order { 
+  height: 150px;
+  width: 450px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.4)  
+}
+
+.album-art {
+  padding-top: 10px;
+  float: left;
+  margin-left: 60px;
+}
+
+.itunes {
+  padding-top: 15px;
+  width: 150px;
+  height: 54;
+  float: right;
+  margin-right: 60px;
+}
+
+.spotify {
+  margin-top: 10px;
+  width: 150px;
+  height: 54;
+  float: right;
+  margin-right: 60px;
+}
+
 /* ==== LEAVING YOU ==== */
 
 #leaving-you {
@@ -197,7 +263,7 @@ moving on */
 
 #mailing-list {
   background: #3e4249;
-  padding: 10px 0;
+  padding: 5px 0;
   color: white;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
@@ -224,18 +290,29 @@ moving on */
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   text-decoration: none;
+  background: black;
+  font-family: Frontman;
 }
 
+.savoy-gif {
+  margin-top: 250px;
+}
 /* ==== SAVOY SOUNDCLOUD ==== */
 
 #savoy-soundcloud {
-  min-height: 500px;
+  height: 700px;
   padding: 50px 0;
   color: white;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
-  background: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/46ecfbb2-8028-436d-8861-cab9157ae99e_zpsre8evxtk.jpg") 50% 0 repeat fixed;
+  background: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/e02aac3e-9ba2-4380-b7c1-fd1dd491b040_zpsf1y9zy7b.jpg")  no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: Frontman;
+  
 }
 
 
@@ -260,7 +337,9 @@ moving on */
   text-align: center;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
-  background: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/46ecfbb2-8028-436d-8861-cab9157ae99e_zpsre8evxtk.jpg") 50% 0 repeat fixed;
+  background: black;
+  font-family: Frontman;
+  
 }
 
 /* ==== SAVOY DOWNLOADS ====  */
@@ -287,4 +366,46 @@ moving on */
   text-decoration: none;
   background: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/46ecfbb2-8028-436d-8861-cab9157ae99e_zpsre8evxtk.jpg") 50% 0 repeat fixed;
 }
+
+
+/* CONTACT
+============================================= */
+
+#contact {
+  height: 600px;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  background: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/29430101-a2b3-4c81-ba4f-3ef204205a9b_zpsnjts7icj.jpg")  no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+}
+
+.contact-box {
+  height: 500px;
+  width: 400px;
+  border-radius: 5px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5)
+  
+}
+
+.contact-text {
+  padding-top: 20px;
+}
+
+.contact-person {
+  font-weight: bold;
+}
+
+.contact-email {
+  font-weight: 300;
+}
+
+hr { width:80%; height:1px; background: #fff }
 

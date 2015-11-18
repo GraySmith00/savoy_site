@@ -15,7 +15,9 @@
                 <span class="icon-bar"></span>
             </button>
           
-            <a class="brand" href="/"><%= image_tag "savoy_inverted_transparent.png", class: "savoy-logo" %></a>
+<!--             <a class="brand" href="/"><%= image_tag "savoy_inverted_transparent.png", class: "savoy-logo" %></a> -->
+          
+          <a class="brand" href="/"><img src="http://i1293.photobucket.com/albums/b596/wlkngmachine/savoy_inverted_transparent_zpszk8ssvav.png" border="0" class="savoy-logo" alt=" photo savoy_inverted_transparent_zpszk8ssvav.png"/></a>
           
           <div class="social-nav">
             <a href="https://twitter.com/savoy" target="_blank" class="badge social twitter"><i class="fa fa-twitter"></i></a>
@@ -28,10 +30,11 @@
         <div class="navbar-collapse collapse">                      
             <ul class="nav navbar-nav navbar-right">
               <li><%= link_to "Live", {:action => "home", :controller => "pages", :anchor => "savoy-live" } %></li>
-              <li><%= link_to "Music", {:action => "home", :controller => "pages", :anchor => "savoy-soundcloud" } %></li>
-              <li><%= link_to "Downloads", {:action => "home", :controller => "pages", :anchor => "savoy-downloads" } %></li>
-              <li><%= link_to "Lasers", {:action => "home", :controller => "pages", :anchor => "savoy-video" } %></li>
-              <li><%= link_to "Apparel", {:action => "home", :controller => "pages", :anchor => "savoy-video" } %></li>
+              <li><a href="#savoy-soundcloud">Music</a></li>
+              <li><a href="#savoy-video">Lasers</a></li>
+              <li><a href="#savoy-video">Contact</a></li>
+              
+              
                 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>
