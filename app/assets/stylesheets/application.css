@@ -44,16 +44,7 @@ center {
   text-align: center;
 }
 
-@font-face {
-  font-family: 'Frontman';
-  src:font-url('Frontman.eot');
-  src:font-url('Frontman.eot?#iefix') format('embedded-opentype'),
-    font-url('Frontman.svg#icomoon') format('svg'),
-    font-url('Frontman.woff') format('woff'),
-    font-url('Frontman.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 
 /* === GLOBAL === */
