@@ -110,7 +110,7 @@ img {
   max-width: 150px;
   margin-top: 7px;
   margin-bottom: 3px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .social-nav {
@@ -189,11 +189,11 @@ moving on */
 /* HERO SECTION
 ========================================= */
 #hero {
-  background: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/505d7df9-f069-4f92-b903-683fe3ec0431_zpssbfmimss.jpg")  no-repeat center center fixed;
+  background: url("http://i1293.photobucket.com/albums/b596/wlkngmachine/505d7df9-f069-4f92-b903-683fe3ec0431_zpssbfmimss.jpg")  top left no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
+/*   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   height: 700px;
   font-family: Frontman;
   margin-top: -50px;
@@ -431,3 +431,52 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
   height: 500px;
   background: green;
 }
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+} */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+  savoy-logo {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+} */
+
+@media only screen and (min-width: 1650px) {
+    /* For desktop: */
+  #hero{
+    height: 900px;
+  }
+    
+}
+
+@media only screen and (min-width: 1824px) {
+    /* For desktop: */
+  #hero{
+    height: 1000px;
+  }
+    
+}
+
+@media only screen and (min-width: 2300px) {
+    /* For desktop: */
+  #hero{
+    height: 1200px;
+  }
+    
+}
+
+
+
